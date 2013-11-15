@@ -19,7 +19,7 @@ $(function(){
 
 	function show_notifer_for(begin, end) {
 		$(".notifer").html("readying..")
-	};aaaaaaaaaaaaaaaaaafdafafdafdsafdsafdsafdsafdsafdsfdfdasfdsafdsafdsafdsafdsafdsafdsafdsfdsafsdfewafdasfdsafdasdsa
+	};
 
 	function login_and_get_cookie_for(begin, end) {
 		chrome.runtime.sendMessage({begin: begin, end: end, task_type: "login_and_get_cookie"}, function(response) {
